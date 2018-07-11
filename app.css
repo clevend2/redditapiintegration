@@ -1,0 +1,73 @@
+body {
+	background-color: #ddd;
+	font-family: "Arial";
+}
+#container {
+	text-align: center;
+	background-color: #fff;
+	max-width: 50%;
+	margin: auto;
+	padding: 0 2%;
+	border-radius: 5px;
+}
+
+#title {
+	font-size: 40px;
+	text-align: center;
+	padding: 20px;
+	margin: 0;
+}
+
+#list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#list li {
+	border-radius: 5px;
+	background-color: #eee;
+	margin-bottom: 10px;
+	box-shadow: 0px 1px 1px #bbb;
+	text-align: left;
+}
+
+#list li .main-link {
+	display: block;
+	font-size: 22px;
+	padding: 15px;
+	text-decoration: none;
+	color: #333;
+} 
+
+#list li .info {
+	padding: 15px;
+	border-top: 1px solid #ddd;
+	font-size: 13px;
+}
+
+#list li .info .author {
+	float: right;
+	color: #999;
+	font-weight: bold;
+}
+
+#list li .info a {
+	text-decoration: none;
+}
+
+.nav {
+	cursor: pointer;
+	border-radius: 15px;
+	background-color: #00b3ea;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px 10px;
+	margin: 20px;
+	border: none;
+}
+
+
+.nav:disabled {
+	background-color: #ccc;
+}
